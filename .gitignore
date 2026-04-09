@@ -34,5 +34,6 @@ tests/**/coverage/
 components/external/ckeditor5/node_modules
 components/external/ckeditor5/build
 
+build
 
 
