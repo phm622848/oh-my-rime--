@@ -1,22 +1,38 @@
-# macOS日志文件
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.eslintcache
+.stylelintcache
+
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+tests/**/coverage/
+.yarn
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# 用户配置文件
-user.yaml
-installation.yaml
+# ckeditor
+components/external/ckeditor5/node_modules
+components/external/ckeditor5/build
 
-# 部署生成的文件
-build
-*.userdb
 
-# 同步目录
-sync/
 
-# 自定义文件
-*.custom.yaml
-
-# VSCode 项目文件
-*.code-workspace
-
-# 语言模型文件
-*.gram
